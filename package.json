@@ -1,6 +1,6 @@
 {
   "name": "@kiwicom/eslint-config-kiwicom-cypress",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint configuration for Cypress at Kiwi.com",
   "keywords": [
     "eslint",
@@ -39,8 +39,5 @@
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-flowtype": "^3.11.1"
-  },
-  "engines": {
-    "node": ">=10.0.0"
   }
 }
