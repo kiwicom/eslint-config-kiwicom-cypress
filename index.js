@@ -37,6 +37,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     // eslint-disable-next-line spellcheck/spell-checker
     "no-plusplus": "off",
+    "import/no-extraneous-dependencies": "off",
     "mocha/no-exclusive-tests": "error",
     "spellcheck/spell-checker": [
       "error",
@@ -45,9 +46,16 @@ module.exports = {
         "strings": true,
         "identifiers": true,
         "lang": "en_US",
+
+        // TODO: Edit and fetch from Google Sheets
         "skipWords": [
 
           // IT
+          "req",
+          "res",
+          "utc",
+          "uri",
+          "noflow", // disabling flow checks
           "api",
           "args",
           "auth",
@@ -61,9 +69,18 @@ module.exports = {
           "placepickers",
           "redirections",
           "xml",
+          "autocomplete",
+          "gte", // greater than
+          "lt", // less than
+          "frontend",
+          "backend",
 
           "downarrow", // Cypress syntax
           "uparrow", // Cypress syntax
+
+          // JavaScript
+          "dotenv",
+          "luxon",
 
           // Currencies
           "uah",
@@ -75,6 +92,8 @@ module.exports = {
           "oneway",
           "spidey",
           "spiderman",
+          "smartfaq",
+          "sfaq", // short for SmartFAQ
 
           // Common abbreviations
           "affil",
@@ -107,6 +126,7 @@ module.exports = {
           "advices",
           "autofill",
           "autofills",
+          "ipad",
 
           // Places
           "iceland",
@@ -118,8 +138,11 @@ module.exports = {
           "vienna",
           "czech",
           "portugal",
+          "brugges",
+          "prague",
 
           // TODO
+          "perex",
           "Bedfinder",
           "beforeunload",
           "Behaviour",
@@ -172,6 +195,7 @@ module.exports = {
           "exponea",
           "facebook",
           "faq",
+          "faqs",
           "fieldset",
           "fieldsets",
           "filename",
