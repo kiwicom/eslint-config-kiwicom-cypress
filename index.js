@@ -331,6 +331,7 @@ module.exports = {
           "remarketing",
           "rentalcars",
           "rgb",
+          "rgba",
           "rozok",
           "runnable",
           "russia",
