@@ -246,6 +246,7 @@ module.exports = {
           "fieldsets",
           "filename",
           "firstname",
+          "flexi",
           "flowtype",
           "focusin",
           "fontawesome",
