@@ -1,6 +1,6 @@
 {
   "name": "@kiwicom/eslint-config-kiwicom-cypress",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ESLint configuration for Cypress at Kiwi.com",
   "keywords": [
     "eslint",
